@@ -1,0 +1,58 @@
+html, body{
+	height: 100%;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+}
+
+/*
+
+	Header
+
+*/
+
+.content-wrapper{
+	flex: 1 0 auto;
+}
+
+/*
+
+	Navbar
+
+*/
+
+.nav-item:link, .nav-item:visited{
+	color: white;
+}
+
+.nav-item:active{
+	color: rgb(235, 235, 235);
+	font-weight: bold;
+}
+
+/*
+
+	Why
+
+*/
+
+
+
+/*
+
+	About
+
+*/
+
+
+/*
+
+	Footer
+
+*/
+
+.footer{
+	flex-shrink: 0;
+}
